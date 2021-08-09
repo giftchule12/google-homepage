@@ -3,6 +3,19 @@ header{
     flex-direction: row;
     background-color: maroon; */
 }
+
+.header-links a:link{
+    text-decoration: none;
+}
+
+.header-links a:hover{
+    text-decoration: underline;
+}
+
+.header-links a:visited{
+    color: black;
+}
+
 .header-flex-container{
     display: flex;
     flex-direction: row;
@@ -11,6 +24,10 @@ header{
     /* margin-left: 500px;
     border-style: dotted;
     background-color: limegreen; */
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .material-icons-outlined{
@@ -45,6 +62,19 @@ button{
 
 footer{
     background-color: #f2f2f2;
+}
+
+.footer-links a:link{
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.footer-links a:visited{
+    color: grey;
 }
 
 .footer-container{
