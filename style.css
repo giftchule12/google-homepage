@@ -26,8 +26,9 @@ header{
     background-color: limegreen; */
 }
 
-body{
-    font-family: 'Noto Sans JP', sans-serif;
+body, input, button{
+    font-size: 14;
+    font-family: 'arial', sans-serif;
 }
 
 .material-icons-outlined{
@@ -40,16 +41,34 @@ body{
     margin-top: 140px;
 } 
 
-.textArea{
+.search{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.textField{
+    width: 34%;
     border-radius: 100px;
     border-width: 0px;
     box-shadow: 0 0 2px grey;
-    padding: 10px 200px;
-    margin: 40px;
+    padding: 12px 50px;
+    /* margin: 40px; */
 }
 
-.textArea:hover{
+.textField:hover{
     box-shadow: 0 1px 8px rgb(185, 185, 185);
+}
+
+.textField:focus{
+    outline: none;
+}
+
+.icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* top: 48px;
+    left: 430px; */
 }
 
 button{
@@ -75,8 +94,8 @@ button:hover{
 footer{
     background-color: #f2f2f2;
     position: fixed;
-    left: 0px;
-    bottom: 0px;
+    left: 0%;
+    bottom: 0%;
     width: 100%;
     color: grey;
 }
@@ -87,6 +106,7 @@ footer{
 }
 
 .footer-links{
+    /* padding: 30px; */
 }
 
 .footer-links a:link{
