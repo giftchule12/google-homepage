@@ -26,49 +26,58 @@ header{
     background-color: limegreen; */
 }
 
-body, input, button{
-    font-size: 14;
-    font-family: 'arial', sans-serif;
-}
-
-.material-icons-outlined{
+.material-icons{
     font-size: auto;
     color: gray;
 } 
+
+body, input, button{
+    font-size: 12;
+    line-height: 1.6;
+    font-family: 'Nato Sans JP', sans-serif;
+}
 
 .midsection{
     text-align: center;
     margin-top: 140px;
 } 
 
-.search{
+.search-flex-container{
     display: flex;
+    justify-content:center;
     align-items: center;
-    flex-direction: column;
+    padding-top: 20px;
+    /* background-color: navy; */
 }
+
 .textField{
-    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lavender; */
+    width: 40%;
     border-radius: 100px;
-    border-width: 0px;
-    box-shadow: 0 0 2px grey;
-    padding: 12px 50px;
-    /* margin: 40px; */
+    border: 1px solid rgb(185, 185, 185);
+    padding: 5px;
 }
 
 .textField:hover{
     box-shadow: 0 1px 8px rgb(185, 185, 185);
 }
 
-.textField:focus{
-    outline: none;
+.search-elements-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.icon{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    /* top: 48px;
-    left: 430px; */
+input{
+    border: none;
+    margin: auto;
+}
+
+input:focus{
+    outline: none;
 }
 
 button{
@@ -105,19 +114,21 @@ footer{
     flex-direction: column;
 }
 
-.footer-links{
-    /* padding: 30px; */
+.footer-links-container{
+    display: flex;
+    /* justify-content: center; */
+    gap:30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
-.footer-links a:link{
+footer a:link{
     color: grey;
     text-decoration: none;
 }
-
-.footer-links a:hover{
+footer a:hover{
     text-decoration: underline;
 }
-
-.footer-links a:visited{
+footer a:visited{
     color: grey;
 }
