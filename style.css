@@ -20,15 +20,11 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    /* margin-left: 500px;
-    border-style: dotted;
-    background-color: limegreen; */
+    justify-content: flex-end
 }
 
 .material-icons{
-    font-size: auto;
-    color: gray;
+    color: #9aa0a6;
 } 
 
 body, input, button{
@@ -45,19 +41,15 @@ body, input, button{
 .search-flex-container{
     display: flex;
     justify-content:center;
-    align-items: center;
     padding-top: 20px;
-    /* background-color: navy; */
 }
 
 .textField{
     display: flex;
+    flex-basis: 40%;
     justify-content: center;
-    align-items: center;
-    /* background-color: lavender; */
-    width: 40%;
     border-radius: 100px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 1px solid #dfe1e5;
     padding: 5px;
 }
 
@@ -67,13 +59,25 @@ body, input, button{
 
 .search-elements-container{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 5px 10px 0px 10px;
 }
 
 input{
+    display: flex;
+    flex: 100%;
+    font-size: 16px;
+    margin-top: -3px;
+    padding: 0px 10px 0px 10px;
+    height: 30px;
     border: none;
-    margin: auto;
+}
+
+.item-two{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 input:focus{
