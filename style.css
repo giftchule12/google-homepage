@@ -4,6 +4,20 @@ header{
     background-color: maroon; */
 }
 
+.header-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 10px 10px 0px 0px;
+}
+
+.header-links{
+    display: flex;
+    align-content: center;
+    gap: 5px;
+}
+
 .header-links a:link{
     text-decoration: none;
 }
@@ -16,11 +30,14 @@ header{
     color: black;
 }
 
-.header-flex-container{
+.header-icons{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end
+    align-content: center;
+    gap: 10px;
+}
+
+.header-icons:hover{
+    background-color: hotpink;
 }
 
 .material-icons{
@@ -118,12 +135,20 @@ footer{
     flex-direction: column;
 }
 
+.footer-location{
+    padding: 10px 0px 10px 25px;
+}
+
+.horizontal-line{
+    background-color: #dfe1e5;
+    padding: 1px 0px 0px 0px;
+}
+
 .footer-links-container{
     display: flex;
     /* justify-content: center; */
     gap:30px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding: 10px 25px 10px 25px;
 }
 
 footer a:link{
@@ -135,4 +160,8 @@ footer a:hover{
 }
 footer a:visited{
     color: grey;
+ }
+
+.empty-item{
+    flex-grow: 1;
 }
