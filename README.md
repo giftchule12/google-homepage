@@ -8,6 +8,7 @@ Learned how to utilise Git for real projects. Confident with Git commands like G
 Learned how to use git branching and pull requests.
 
 # Overview
-Produced a google homepage that looks similar to the actual one, code can be refactored by removing unnecesary lines of code or  can be restructered as well. 
+Produced a google homepage that looks similar to the actual one, code can be refactored by removing unnecesary lines of code or can be restructered. 
+The page is not mobile freindly :-(
 
 
