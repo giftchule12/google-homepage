@@ -21,6 +21,7 @@ header{
 }
 
 .header-links a:link{
+    color: black;
     text-decoration: none;
 }
 
