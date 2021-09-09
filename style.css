@@ -1,21 +1,23 @@
 header{
-    /* display: flex;
-    flex-direction: row;
-    background-color: maroon; */
+    font-size: 13px;
+    line-height: 27px;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
 }
 
 .header-flex-container{
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: flex-end;
-    gap: 15px;
-    padding: 10px 10px 0px 0px;
+    gap: 25px;
+    padding: 5px 10px 0px 0px;
 }
 
 .header-links{
     display: flex;
     align-content: center;
-    gap: 5px;
+    gap: 10px;
+    margin-top: -8px;
 }
 
 .header-links a:link{
@@ -30,14 +32,17 @@ header{
     color: black;
 }
 
-.header-icons{
+.header-icons-flex{
     display: flex;
     align-content: center;
     gap: 10px;
 }
 
-.header-icons:hover{
-    background-color: hotpink;
+.header-icon:hover{
+    height: 30px;
+    width: 30px;
+    background-color: #cbcdce;
+    border-radius: 100%;
 }
 
 .material-icons{
@@ -108,8 +113,13 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 10px;
-    margin: 20px;
+    margin: 20px 5px 0 5px;
+    padding: 0 16px;
+    height: 36px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    cursor: pointer;
 }
 
 button:hover{
@@ -117,8 +127,23 @@ button:hover{
     box-shadow:0 0 2px grey;
 }
 
+
 .lang{
     padding: 20px;
+    font-size: small;
+    color: #3c4043;
+}
+.lang a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+.lang a:hover{
+    text-decoration: underline;
+}
+
+.lang a:visited{
+    color: blue;
 }
 
 footer{
@@ -127,7 +152,9 @@ footer{
     left: 0%;
     bottom: 0%;
     width: 100%;
-    color: grey;
+    padding: 0 0 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 .footer-container{
@@ -136,19 +163,20 @@ footer{
 }
 
 .footer-location{
-    padding: 10px 0px 10px 25px;
+    padding: 15px 0px 10px 30px;
+    color: grey;
 }
 
 .horizontal-line{
     background-color: #dfe1e5;
-    padding: 1px 0px 0px 0px;
+    padding: 1px;
 }
 
 .footer-links-container{
     display: flex;
-    /* justify-content: center; */
     gap:30px;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 25px 5px 30px;
+    font-size: 14px;
 }
 
 footer a:link{
