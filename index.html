@@ -2,54 +2,94 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
 
     <header>
         <div class="header-flex-container">
-            <div>
+            <div class="header-links">
                 <a href="#" class="mail">Gmail</a>
                 <a href="#" class="images">Images</a>
             </div>
-            <div>
-                <span class="material-icons-outlined">apps</span>
-                <span class="material-icons-outlined">account_circle</span>
+            <div class="header-icons-flex">
+                <div class="header-icon">
+                    <a href="#"><span class="material-icons" style="font-size: 30px;">apps</span></a>
+                </div>
+                <div class="header-icon">
+                    <a href="#"><span class="material-icons" style="font-size: 30px;">account_circle</span></a>
+                </div>
+                
             </div>
         </div>
     </header>
 
     <div class="midsection">
         <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+
+       
+
         <form>
-            <input type="text" class="textArea">
-            <div class="buttonclass">
-            <button type="submit">Google Search</button>
-            <button type="button">"I'm Feeling Lucky"</button>
+            <div class="search-flex-container">
+                <div class="textField">
+                    <div class="search-elements-container">
+                        <div class="search-icon">
+                             <span class="material-icons">search</span>
+                        </div>
+                        <div  class="item-two"> 
+                            <input type="text" maxlength="2048">
+                        </div>
+                        <div class="mic-icon">
+                            <span class="material-icons">mic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-class">
+                <button type="submit">Google Search</button>
+                <button type="button">I'm Feeling Lucky</button>
             </div>
         </form>
 
         <div class="lang">
-            Google offered in: <a href="#">Chichewa</a> <a href="#">Tumbuka</a>
+            Google offered in: <a href="#" style="padding-right: 10px;">Chichewa</a> <a href="#">Tumbuka</a>
         </div>
         
     </div>
 
     <footer>
-        <div class="footer-flex-container">
-            <div>
+        <div class="footer-container">
+            <div class="footer-location">
                 Malawi
             </div>
-            <div>
-                <hr>
+            <div class="horizontal-line">
+                
             </div>
-            <div class="footer-links">
-                <a href="#">About</a>
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search works</a>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
+            <div class="footer-links-container">
+                <div>
+                    <a href="#">About</a>
+                </div>
+                <div>
+                    <a href="#">Advertising</a>
+                </div>
+                <div>
+                    <a href="#">Business</a>
+                </div>
+                <div>
+                    <a href="#">How Search works</a>
+                </div>
+                <div class="empty-item">
+
+                </div>
+                <div>
+                    <a href="#">Privacy</a>
+                </div>
+                <div>
+                    <a href="#">Terms</a>
+                </div>
+                <div>
+                    <a href="#">Settings</a>
+                </div>
             </div>
         </div>
     </footer>
